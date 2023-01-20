@@ -1,7 +1,9 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Strona główna</router-link> |
+    <router-link to="/Animal">Lista zwierząt</router-link> | 
+    <router-link to="/CreateAnimal">Rejestracja zwierząt</router-link> | 
+    <router-link to="/UpdateAnimal">Aktualizacja danych zwierzęcia</router-link> | 
   </nav>
   <router-view/>
 </template>
