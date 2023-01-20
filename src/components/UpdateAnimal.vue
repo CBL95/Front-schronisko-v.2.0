@@ -6,7 +6,7 @@
                 <tr>
                     <td>
 
-                        <form @submit.prevent="updateAnimal">
+                        <form @submit.prevent="updateAnimal" data-cy="updateForm">
                             <div class="form-group row" style="text-align: left">
 
                                 <label for="id" class="col-sm-4 col-form-label">Identyfikator</label>
@@ -29,7 +29,7 @@
                             <div class="form-group row" style="text-align: left">
                                 <label for="category" class="col-sm-4 col-form-label">Gatunek</label>
                                 <div class="col-sm-8">
-                                    <select class="form-select" id="category" v-model="state.category">
+                                    <select class="form-select" id="category" v-model="state.category" data-cy="updateAnimalCheckCategory">
 
                                         <option value="Pies">Pies</option>
                                         <option value="Kot">Kot</option>
@@ -41,7 +41,7 @@
                             <div class="form-group row" style="text-align: left">
                                 <label for="sex" class="col-sm-4 col-form-label">Płeć</label>
                                 <div class="col-sm-8">
-                                    <select class="form-select" id="sex" v-model="state.sex">
+                                    <select class="form-select" id="sex" v-model="state.sex" data-cy="updateAnimalCheckSex">
 
                                         <option value="Samiec">Samiec</option>
                                         <option value="Samica">Samica</option>
@@ -67,17 +67,17 @@
                             <div class="form-group row" style="text-align: left">
                                 <label for="size" class="col-sm-4 col-form-label">Rozmiar</label>
                                 <div class="col-sm-8">
-                                    <select class="form-select" id="size" v-model="state.size">
+                                    <select class="form-select" id="size" v-model="state.size" data-cy="updateAnimalCheckSize">
 
                                         <option value="Duży">Duży</option>
                                         <option value="Normalny">Normalny</option>
-                                        <option value="Mały">Normalny</option>
+                                        <option value="Mały">Mały</option>
 
                                     </select>
                                 </div>
                             </div>
 
-                            <button class="btn btn-primary" @click="submitForm">Aktualizuj pozycję</button>
+                            <button class="btn btn-primary" @click="submitForm" data-cy="updateButton">Aktualizuj pozycję</button>
                         </form>
                     </td>
                 </tr>
