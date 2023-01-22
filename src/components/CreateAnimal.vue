@@ -23,7 +23,8 @@
                             <div class="form-group row" style="text-align: left">
                                 <label for="category" class="col-sm-4 col-form-label">Gatunek</label>
                                 <div class="col-sm-8">
-                                    <select class="form-select" id="category" v-model="state.category" data-cy="createAnimalCheckCategory">
+                                    <select class="form-select" id="category" v-model="state.category"
+                                        data-cy="createAnimalCheckCategory">
 
                                         <option value="Pies">Pies</option>
                                         <option value="Kot">Kot</option>
@@ -38,7 +39,8 @@
                             <div class="form-group row" style="text-align: left">
                                 <label for="sex" class="col-sm-4 col-form-label">Płeć</label>
                                 <div class="col-sm-8">
-                                    <select class="form-select" id="sex" v-model="state.sex" data-cy="createAnimalCheckSex">
+                                    <select class="form-select" id="sex" v-model="state.sex"
+                                        data-cy="createAnimalCheckSex">
 
                                         <option value="Samiec">Samiec</option>
                                         <option value="Samica">Samica</option>
@@ -73,7 +75,8 @@
                             <div class="form-group row" style="text-align: left">
                                 <label for="size" class="col-sm-4 col-form-label">Rozmiar</label>
                                 <div class="col-sm-8">
-                                    <select class="form-select" id="size" v-model="state.size" data-cy="createAnimalCheckSize">
+                                    <select class="form-select" id="size" v-model="state.size"
+                                        data-cy="createAnimalCheckSize">
 
                                         <option value="Duży">Duży</option>
                                         <option value="Normalny">Normalny</option>
@@ -88,7 +91,8 @@
                             </div>
 
 
-                            <button class="btn btn-primary" @click="submitForm" data-cy="createButton">Dodaj pozycję do listy</button>
+                            <button class="btn btn-primary" @click="submitForm" data-cy="createButton">Dodaj pozycję do
+                                listy</button>
                         </form>
                     </td>
                 </tr>

@@ -13,10 +13,10 @@ describe('Test Create Animal Page', () => {
     cy.get('[data-cy=createAnimalCheckSex').contains('Samica');
   })
 
-  it('check drop-down for size (update)', ()=> {
+  it('check drop-down for size (update)', () => {
     cy.get('[data-cy=createAnimalCheckSize').contains('Duży')
     cy.get('[data-cy=createAnimalCheckSize').contains('Normalny')
-    cy.get('[data-cy=createAnimalCheckSize').contains('Mały') 
+    cy.get('[data-cy=createAnimalCheckSize').contains('Mały')
   })
 
   it('checkIfRequiredElementsExists (create)', () => {

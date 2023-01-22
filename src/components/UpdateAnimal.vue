@@ -29,7 +29,8 @@
                             <div class="form-group row" style="text-align: left">
                                 <label for="category" class="col-sm-4 col-form-label">Gatunek</label>
                                 <div class="col-sm-8">
-                                    <select class="form-select" id="category" v-model="state.category" data-cy="updateAnimalCheckCategory">
+                                    <select class="form-select" id="category" v-model="state.category"
+                                        data-cy="updateAnimalCheckCategory">
 
                                         <option value="Pies">Pies</option>
                                         <option value="Kot">Kot</option>
@@ -41,7 +42,8 @@
                             <div class="form-group row" style="text-align: left">
                                 <label for="sex" class="col-sm-4 col-form-label">Płeć</label>
                                 <div class="col-sm-8">
-                                    <select class="form-select" id="sex" v-model="state.sex" data-cy="updateAnimalCheckSex">
+                                    <select class="form-select" id="sex" v-model="state.sex"
+                                        data-cy="updateAnimalCheckSex">
 
                                         <option value="Samiec">Samiec</option>
                                         <option value="Samica">Samica</option>
@@ -67,7 +69,8 @@
                             <div class="form-group row" style="text-align: left">
                                 <label for="size" class="col-sm-4 col-form-label">Rozmiar</label>
                                 <div class="col-sm-8">
-                                    <select class="form-select" id="size" v-model="state.size" data-cy="updateAnimalCheckSize">
+                                    <select class="form-select" id="size" v-model="state.size"
+                                        data-cy="updateAnimalCheckSize">
 
                                         <option value="Duży">Duży</option>
                                         <option value="Normalny">Normalny</option>
@@ -77,7 +80,8 @@
                                 </div>
                             </div>
 
-                            <button class="btn btn-primary" @click="submitForm" data-cy="updateButton">Aktualizuj pozycję</button>
+                            <button class="btn btn-primary" @click="submitForm" data-cy="updateButton">Aktualizuj
+                                pozycję</button>
                         </form>
                     </td>
                 </tr>
